@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<title>ajax test</title>
+</head>
+<body>
+	<button id='button_1'>Button</button>
+<script type='text/javascript'>(function($) {
+	$('#button_1').click(function(){
+		$.ajax({
+			method: 'POST',
+			url: '/sample/ajax',
+			data: {a: 'a', b: 1}
+		}).done(function(result) {
+			console.log(result);
+		}).fail(function(jqXHR, status) {
+			console.log(jqXHR);
+			console.log(status);
+		});
+	});
+})(jQuery);</script>
+</body>
+</html>

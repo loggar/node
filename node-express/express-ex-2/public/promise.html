@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+  promise test
+  <script>
+    function resolve(result) {
+      
+    }
+  
+    var arrPromise = [];
+    var params = [ 1, 2, 3 ];
+  
+    for (var i = 0; i < params.length; i++) {
+      arrPromise.push(new Promise(function(resolve, reject) {
+        
+      }));
+    }
+  
+    Promise.all(arrPromise).then(function(value) {
+      console.log("all done=" + value);
+    }, function(reason) {
+      console.log("err=" + reason);
+    });
+  </script>
+</body>
+</html>

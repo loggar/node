@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><%= title %></title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+	<p>from <%= fileName %></p>
+	
+	<div>
+		<% photos.forEach(function(photo) { %>
+			<div>
+				<h2><%= photo.name %></h2>
+				<a href='/sendFile/<%= photo.id %>'><img src='/images/photos/<%= photo.path %>' /></a>
+				<a href='/download/<%= photo.id %>'>download</a>
+			</div>
+		<% }) %>
+	</div>
+</body>
+</html>

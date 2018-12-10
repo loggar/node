@@ -1,0 +1,13 @@
+{
+	"name": "loggar_nodejs_05_view_templating",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ./app.js"
+	},
+	"dependencies": {
+		"ejs": "~2.5.2",
+		"dateformat": "~2.0.0",
+		"winston": "~2.3.1"
+	}
+}

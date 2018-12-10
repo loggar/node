@@ -1,0 +1,16 @@
+{
+  "name": "client.testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"test": "testcafe chrome src-testcafe/*.js",
+	"test1": "testcafe chrome src-testcafe/ex1.submit.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^0.20.4"
+  }
+}

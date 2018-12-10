@@ -1,0 +1,7 @@
+{
+	"name": "node-chokidar",
+	"main": "sample.js",
+	"dependencies": {
+		"chokidar": "~2.0.2"
+	}
+}

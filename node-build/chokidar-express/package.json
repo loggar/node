@@ -1,0 +1,8 @@
+{
+	"name": "express-chokidar",
+	"main": "server.js",
+	"dependencies": {
+		"express": "~4.0.0",
+		"chokidar": "~2.0.2"
+	}
+}

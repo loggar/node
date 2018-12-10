@@ -1,0 +1,11 @@
+{
+	"name": "loggar_nodejs_test",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ./app.js"
+	},
+	"dependencies": {
+		"qunit": "~1.0.0"
+	}
+}

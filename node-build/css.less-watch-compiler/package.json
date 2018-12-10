@@ -1,0 +1,11 @@
+{
+	"name": "ex_tools_less",
+	"private": true,
+	"scripts": {
+		"less-w-c": "node ./node_modules/less-watch-compiler/dist/less-watch-compiler.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"less-watch-compiler": "1.8.0"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "sass-tutorial",
+	"version": "1.0.0",
+	"main": "sass-tutorial.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"scss": "node-sass --watch scss/ -o css/"
+	},
+	"devDependencies": {
+		"node-sass": "4.9.0"
+	}
+}

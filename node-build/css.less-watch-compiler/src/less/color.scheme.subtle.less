@@ -1,0 +1,11 @@
+/* Mixin */@base: #663333;
+@lighter1: lighten(spin(@base, 5), 10%);
+@lighter2: lighten(spin(@base, 10), 20%);
+@darker1: darken(spin(@base, -5), 10%);
+@darker2: darken(spin(@base, -10), 20%);
+
+/* Implementation */.one   {color: @base;}
+.two   {color: @lighter1;}
+.three {color: @lighter2;}
+.four  {color: @darker1;}
+.five  {color: @darker2;}

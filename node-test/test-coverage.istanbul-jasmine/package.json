@@ -1,0 +1,16 @@
+{
+	"name": "coverage.istanbul",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"istanbul": "^0.4.5",
+		"jasmine": "^3.1.0"
+	}
+}

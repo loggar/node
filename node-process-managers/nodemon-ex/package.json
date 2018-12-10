@@ -1,0 +1,21 @@
+{
+	"name": "nodemon-ex",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./src/app.js",
+		"dev": "echo 'run dev' & npm start",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"nodemon": "nodemon --config nodemon.json --exec npm run dev "
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.16.4"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.6"
+	}
+}

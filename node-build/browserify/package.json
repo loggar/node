@@ -1,0 +1,17 @@
+{
+	"name": "ex_tools_browserify",
+	"private": true,
+	"scripts": {
+		"dev": "lite-server",
+		"bundle-browserify": "browserify ./src/main.js -o ./dist/bundle.js",
+		"bundle-watchify": "watchify ./src/main.js -o ./dist/bundle.js -v"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"lite-server": "2.3.0",
+		"browserify": "14.4.0",
+		"watchify": "3.9.0",
+		"ramda": "0.25.0"
+	}
+}

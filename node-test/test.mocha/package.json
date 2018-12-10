@@ -1,0 +1,16 @@
+{
+	"name": "loggar_nodejs_mocha",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node app.js",
+		"test": "mocha ./src-test"
+	},
+	"dependencies": {
+		"express": "^4.15.4"
+	},
+	"devDependencies": {
+		"expect.js": "^0.3.1",
+		"mocha": "^3.5.0",
+		"superagent": "^3.5.2"
+	}
+}

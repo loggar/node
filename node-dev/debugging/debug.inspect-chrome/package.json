@@ -1,0 +1,15 @@
+{
+  "name": "debug.inspect-chrome",
+  "version": "1.0.0",
+  "description": "Debugging tools provide you with a few important functionalities that console.log isn’t able to provide. In particular they let you pause the execution of your application at specific points in the code, and inspect and modify the values of the variables while the program is still running.",
+  "main": "app-hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

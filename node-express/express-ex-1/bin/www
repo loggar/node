@@ -1,0 +1,31 @@
+process.env.DEBUG = '*:log *:err'; //set DEBUG=*:log *:err (windows cmd)
+
+var path = require('path');
+var app = require('../app');
+var http = require('http');
+var port = app.get('port');
+
+http.createServer(app).listen(port)
+.on('error', function onError(error) {
+	if (error.syscall !== 'listen') {
+		throw error;
+	}
+	var bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
+	switch (error.code) {
+	case 'EACCES':
+		console.error(bind + ' requires elevated privileges');
+		process.exit(1);
+		break;
+	case 'EADDRINUSE':
+		console.error(bind + ' is already in use');
+		process.exit(1);
+		break;
+	default:
+		throw error;
+	}
+})
+.on('listening', function onListening() {
+	var addr = this.address();
+	var bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port;
+	console.log('[www_dev.js] server listening: ' + bind);
+});

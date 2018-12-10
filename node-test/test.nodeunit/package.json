@@ -1,0 +1,11 @@
+{
+	"name": "loggar_nodejs_nodeunit",
+	"version": "0.1.0",
+	"scripts": {
+		"test": "./node_modules/.bin/nodeunit ./src-test"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"nodeunit": "^0.11.1"
+	}
+}

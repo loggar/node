@@ -1,0 +1,13 @@
+{
+	"name": "loggar_nodejs_pm2",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "node src/pm2-sample-app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"node-schedule": "^1.3.0"
+	},
+	"devDependencies": {}
+}

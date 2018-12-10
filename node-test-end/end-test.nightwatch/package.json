@@ -1,0 +1,16 @@
+{
+	"name": "end-test.nightwatch",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"test-e2e": "nightwatch"
+	},
+	"keywords": [],
+	"license": "ISC",
+	"devDependencies": {
+		"chromedriver": "^2.40.0",
+		"nightwatch": "^0.9.21",
+		"selenium-server-standalone-jar": "^3.13.0"
+	}
+}

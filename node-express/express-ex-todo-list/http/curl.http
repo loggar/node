@@ -1,0 +1,11 @@
+curl \
+	--request GET \
+	--url http://localhost:27010
+
+###
+
+curl \
+	-X POST \
+	-H "Content-Type: application/x-www-form-urlencoded" \
+	-d "description=running node server on android system" \
+	--url http://localhost:27010/todo

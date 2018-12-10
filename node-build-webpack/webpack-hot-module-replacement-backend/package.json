@@ -1,0 +1,23 @@
+{
+	"name": "hot-module-replacement-backend",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node bin/www.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start:server:dev": "webpack --mode development --config webpack.config.server.js",
+		"build:server:prod": "webpack --mode production --config webpack.config.prod.js"
+	},
+	"dependencies": {
+		"express": "^4.16.3"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.4",
+		"babel-preset-env": "^1.7.0",
+		"clean-webpack-plugin": "^0.1.19",
+		"start-server-webpack-plugin": "^2.2.5",
+		"webpack": "^4.10.2",
+		"webpack-command": "^0.2.0",
+		"webpack-node-externals": "^1.7.2"
+	}
+}

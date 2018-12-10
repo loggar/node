@@ -1,0 +1,57 @@
+# log
+*.log
+npm-debug.log*
+_log/
+
+# grunt intermediate storage
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# optional npm cache directory
+.npm
+
+# optional REPL history
+.node_repl_history
+
+# OS generate
+.DS_Store
+.DS_Store?
+._*
+.spotlight-V100
+.Trashes
+.Icon?
+ehthumbs.db
+Thumbs.db
+
+# compiled output
+dist/
+.dist/
+dist-production/
+out-tsc/
+.build/
+dist8/
+dist10/
+
+# test
+_test-output/
+
+# code coverage
+coverage/
+.nyc_output/
+
+# temporary dirs
+tmp/
+_tmp/
+
+# visual studio code
+.vscode/
+
+# ssl
+ssl/

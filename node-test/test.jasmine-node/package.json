@@ -1,0 +1,13 @@
+{
+	"name": "jasmine-node-tutorial",
+	"version": "0.1.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "jasmine-node ./src-test"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"jasmine-node": "^1.15.0"
+	}
+}

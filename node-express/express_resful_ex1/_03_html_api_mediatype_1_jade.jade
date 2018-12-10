@@ -1,0 +1,55 @@
+	head
+		title Order
+	body.order
+		h1 Order
+		ul.properties
+			li.property
+				label Order Number
+					span.orderNumber 42
+			li.property
+				label Item Count
+					span.itemCount 3
+			li.property
+				label Status
+					span.status pending
+
+		ul.entities
+			li.entity.items.collection
+				a(rel='http://x.io/rels/order-items',
+					href='http://api.x.io/orders/42/items')
+					| Items
+
+			li.entity.info.customer
+				a(rel='http://x.io/rels/customer'
+					href='http://api.x.io/customers/pj123'),
+					ul.properties
+						li.property
+							label Customer ID
+								span.customerId pj123
+						li.property
+							label Name
+								span.name Peter Joseph
+
+		ul.actions
+			li.action
+				// Action is one of:
+				// index, create, show, put, delete, patch
+				// The method in html is determined by the
+				// mapping between actions and HTML methods.
+				form(action='create',
+					href='http://api.x.io/orders/42/items',
+					type='application/x-www-form-urlencoded')
+					fieldset
+						legend Add Item
+						label Order Number
+							input(name='orderNumber', hidden='hidden', value='42')
+						label Product Code
+							input(name='productCode', type='text')
+						label Quantity
+							input(name='quantity', type='number')
+
+		ul.links
+			a(rel='self', href='http://api.x.io/orders/42',
+				style='display: none;')
+			a(rel='previous', href='http://api.x.io/orders/41') Previous
+			a(rel='next', href='http://api.x.io/orders/43') Next
