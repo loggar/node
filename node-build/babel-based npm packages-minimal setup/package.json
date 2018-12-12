@@ -1,0 +1,33 @@
+{
+	"scripts": {
+		"build": "babel esm --out-dir cjs",
+		"prepublishOnly": "npm run build",
+		"test": "ava"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.24.1",
+		"ava": "^0.21.0",
+		"babel-preset-env": "^1.5.1",
+		"babel-register": "^6.24.1"
+	},
+	"main": "./cjs/index.js",
+	"module": "./esm/index.js",
+	"babel": {
+		"presets": [
+			[
+				"env",
+				{
+					"targets": {
+						"node": "current"
+					}
+				}
+			]
+		]
+	},
+	"ava": {
+		"require": [
+			"babel-register"
+		],
+		"babel": "inherit"
+	}
+}
