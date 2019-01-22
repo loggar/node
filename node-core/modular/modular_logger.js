@@ -1,7 +1,7 @@
 /**
  * module object.toStringFor Debugging
  * version 1.0.2
- * charly.loggar@gmail.com
+ * Charly Lee <charly.loggar@gmail.com>
  */
 var loggarJsObjDebugStrMaker = function(obj_or_arr) {
 	var str = "{";
@@ -28,7 +28,7 @@ var loggarJsObjDebugStrMaker = function(obj_or_arr) {
 /**
  * module logger
  * version 1.0.2
- * charly.loggar@gmail.com
+ * Charly Lee <charly.loggar@gmail.com>
  */
 var logger = {
 //		debug_mode : true,

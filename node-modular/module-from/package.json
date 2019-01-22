@@ -7,7 +7,7 @@
     "test": "mocha ./**/*.test.js"
   },
   "keywords": [],
-  "author": "charly.loggar@gmail.com",
+  "author": "Charly Lee <charly.loggar@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.3.0"
