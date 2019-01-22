@@ -22,7 +22,9 @@ function moduleFromString(code, filename) {
 }
 
 async function moduleFromUrl(url, filename) {
-  filename = filename || `./module_from_url/${url}`;
+  if (!filename || typeof filename !== "string") {
+    filename = "";
+  }
   const res = await fetch(url);
   const code = await res.text();
   return moduleFromString(code, filename);
