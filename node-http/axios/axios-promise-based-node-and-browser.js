@@ -20,4 +20,3 @@ Using Promises is a great advantage when dealing with code that requires a more 
 Writing asynchronous code can get confusing, and Promises are one of several solutions to this problem.
 They are even useful in other languages such as Swift.
 */
-

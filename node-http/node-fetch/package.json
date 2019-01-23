@@ -1,8 +1,8 @@
 {
-	"name": "node-fetch-sample",
-	"version": "0.1",
-	"main": "./index.js",
-	"dependencies": {
-		"node-fetch": "^2.3.0"
-	}
+  "name": "node-fetch-sample",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
 }
