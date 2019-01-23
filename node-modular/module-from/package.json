@@ -1,5 +1,5 @@
 {
-  "name": "import-from",
+  "name": "module-from",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
