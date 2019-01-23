@@ -1,5 +1,3 @@
-"use strict";
-
 const M = require("module");
 const path = require("path");
 const fetch = require("node-fetch");
