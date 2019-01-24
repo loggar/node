@@ -69,48 +69,36 @@ $ npm install
 // ecosystem.config.js
 
 module.exports = {
-	apps: [
-		{
-			name: "track-attend-record",
-			script: "./job-schedulers/src/track-attend-record/track-attend-record.scheduler.js",
-			watch: false,
-			env: {
-				"PORT": 29110,
-				"NODE_ENV": "development"
-			},
-			env_production: {
-				"PORT": 29110,
-				"NODE_ENV": "production"
-			}
-		},
-		{
-			name: "validate-del-flag",
-			script: "./job-schedulers/src/validate-del-flag/validate-del-flag.scheduler.js",
-			watch: false,
-			env: {
-				"PORT": 29120,
-				"NODE_ENV": "development"
-			},
-			env_production: {
-				"PORT": 29120,
-				"NODE_ENV": "production"
-			}
-		},
-		{
-			name: "class-enroll-status",
-			script: "./class-enroll-status/.dist/main.server-bundle.js",
-			watch: false,
-			env: {
-				"PORT": 28110,
-				"NODE_ENV": "development"
-			},
-			env_production: {
-				"PORT": 28110,
-				"NODE_ENV": "production"
-			}
-		}
-	]
-}
+  apps: [
+    {
+      name: "job-schedulers",
+      script: "./job-schedulers/src/job-schedules.js",
+      watch: false,
+      env: {
+        PORT: 29110,
+        NODE_ENV: "development"
+      },
+      env_production: {
+        PORT: 29110,
+        NODE_ENV: "production"
+      }
+    },
+    {
+      name: "class-enroll-status",
+      script: "./class-enroll-status/.dist/main.server-bundle.js",
+      watch: false,
+      env: {
+        PORT: 28110,
+        NODE_ENV: "development"
+      },
+      env_production: {
+        PORT: 28110,
+        NODE_ENV: "production"
+      }
+    }
+  ]
+};
+
 ```
 
 Start Application Jobs with env option.
@@ -119,7 +107,7 @@ Start Application Jobs with env option.
 // windows 
 
 $ set SERVER_ID=local
-$ pm2 start ecosystem.config.js
+$ pm2 start ecosystem.config.js --env development
 ```
 
 in imitaion(test) server : 
