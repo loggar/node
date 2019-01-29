@@ -1,0 +1,12 @@
+{
+	"name": "nodejs_notifier",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node src/ex1.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"node-notifier": "^5.2.1"
+	},
+	"devDependencies": {}
+}

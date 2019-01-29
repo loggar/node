@@ -1,0 +1,8 @@
+{
+	"name": "convert-html-to-markdown",
+	"version": "0.1.0",
+	"main": "usage.js",
+	"dependencies": {
+		"turndown": "4.0.2"
+	}
+}

@@ -1,0 +1,41 @@
+GET http://localhost:3000 HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cars
+
+###
+
+POST http://localhost:3000/api/cars
+content-type: application/json
+
+{
+    "title": "Z3",
+	"brand": "BMW",
+    "price": "1000",
+	"age": 10,
+	"services": {
+		"BMW Hong Kong": "21/04/2016",
+		"BMW Sydney": "21/08/2018"
+	}
+}
+
+###
+
+PUT http://localhost:3000/api/cars/5c09f5082abd7f38e89550d8
+content-type: application/json
+
+{
+    "title": "Z3",
+	"brand": "BMW",
+    "price": "999",
+	"age": 10,
+	"services": {
+		"BMW Hong Kong": "21/04/2016",
+		"BMW Sydney": "21/08/2018"
+	}
+}
+
+###
+
+DELETE http://localhost:3000/api/cars/5c09f5082abd7f38e89550d8

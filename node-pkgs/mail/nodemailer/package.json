@@ -1,0 +1,13 @@
+{
+	"name": "nodejs_sendmail",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node src/sample.smtp.gmail.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"nodemailer": "^4.6.4",
+		"nodemailer-smtp-transport": "^2.7.4"
+	},
+	"devDependencies": {}
+}

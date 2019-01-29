@@ -1,0 +1,8 @@
+{
+	"name": "nodejs_mariadb",
+	"version": "0.1.0",
+	"dependencies": {
+		"mariasql": "^0.2.6"
+	},
+	"devDependencies": {}
+}

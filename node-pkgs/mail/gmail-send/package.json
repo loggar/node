@@ -1,0 +1,12 @@
+{
+	"name": "nodejs_gmail_send",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node src/sample.gmail-send.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"gmail-send": "^1.2.14"
+	},
+	"devDependencies": {}
+}

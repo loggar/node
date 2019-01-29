@@ -1,0 +1,12 @@
+{
+	"name": "serve_dir_static_sites",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node src/app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"serve": "^8.2.0"
+	},
+	"devDependencies": {}
+}

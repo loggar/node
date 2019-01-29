@@ -1,0 +1,17 @@
+{
+  "name": "hapi-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.8.1",
+    "hapi-pino": "^5.1.0",
+    "inert": "^5.1.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"name": "nodejs_schedule",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node src/app-schedule.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"node-schedule": "^1.3.0"
+	},
+	"devDependencies": {}
+}

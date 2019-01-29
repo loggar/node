@@ -1,0 +1,9 @@
+{
+	"private": true,
+	"scripts": {
+		"start": "node ./src/options.js"
+	},
+	"dependencies": {
+		"csv-streamify": "3.0.4"
+	}
+}
