@@ -19,7 +19,7 @@ docker exec nd-db psql admin admin -f /sql/migrations.sql
 docker exec nd-db psql admin admin -f /sql/seeds.sql
 ```
 
-Run wep-app cntainer
+Run wep-app container
 
 ```
 docker build -t node-docker .
