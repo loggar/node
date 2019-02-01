@@ -40,7 +40,9 @@ $ nvm ls
 ```
 $ npm --version
 bash: npm: command not found...
+```
 
+```
 $ source /root/.nvm/nvm.sh
 
 $ npm --version
