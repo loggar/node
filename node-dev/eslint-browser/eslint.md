@@ -3,7 +3,7 @@
 ### Install
 
 ```
-npm install -g eslint
+npm install -D eslint
 ```
 
 ### Setting
@@ -11,7 +11,7 @@ npm install -g eslint
 ```
 npm init
 
-eslint --init
+./node_modules/.bin/eslint --init
 ```
 
 > ./.eslintrc.json
@@ -33,6 +33,12 @@ eslint --init
 
 ### Run
 
+```json
+"scripts": {
+    "lint": "eslint ./src/**/*.js"
+  }
 ```
-eslint src/sample.js
+
+```
+npm run lint
 ```
