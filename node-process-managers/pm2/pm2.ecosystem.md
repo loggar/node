@@ -208,7 +208,7 @@ $ pm2 stop all
 $ pm2 delete all
 ```
 
-## etc
+## logs
 
 show pm2 logs
 
@@ -219,3 +219,13 @@ $ pm2 logs
 
 $ pm2 flush # Clear all the logs
 ```
+
+## etc
+
+* pm2 stop <app> - Stops a specific application
+* pm2 delete <app> - Deletes a specific application
+* pm2 start <app> - Starts a specific application
+* pm2 <app> scale N - Scales the application you specify to N number of * instances (can be used to scale up or down)
+* pm2 kill - Kills all running applications
+* pm2 restart - Restarts all running applications
+* pm2 reload - Reloads the app configuration (this comes in handy when you * modify your application’s environment variables)
