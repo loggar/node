@@ -1,0 +1,15 @@
+{
+  "name": "jsdoc-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "jsdoc": "jsdoc -c jsdoc.conf.json"
+  },
+  "keywords": [],
+  "author": "Charly Lee <charly.loggar@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  }
+}

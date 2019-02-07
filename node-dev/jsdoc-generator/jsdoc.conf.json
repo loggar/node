@@ -1,0 +1,11 @@
+{
+  "source": {
+    "include": ["lib", "readme.md"],
+    "exclude": []
+  },
+  "opts": {
+    "destination": "docs/js",
+    "recurse": true,
+    "tutorials": "docs/js/tutorials"
+  }
+}
