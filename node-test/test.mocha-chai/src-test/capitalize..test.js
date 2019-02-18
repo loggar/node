@@ -1,4 +1,4 @@
-var capitalize = require("../capitalize");
+var capitalize = require("../src/capitalize");
 
 var chai = require("chai");
 var expect = chai.expect;
