@@ -1,0 +1,17 @@
+{
+  "name": "end-scrap.cheerio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Charly Lee <charly.loggar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^2.3.0",
+    "request": "^2.88.0"
+  }
+}
