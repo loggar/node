@@ -55,3 +55,9 @@ _tmp/
 
 # ssl
 ssl/
+
+# python virtualenv
+.venv/
+
+# node nodeenv
+.nodeenv/
