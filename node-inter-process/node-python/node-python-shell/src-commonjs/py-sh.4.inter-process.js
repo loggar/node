@@ -1,5 +1,6 @@
-import { PythonShell } from 'python-shell';
-let pyshell = new PythonShell('my_script.py');
+const { PythonShell } = require('python-shell');
+
+let pyshell = new PythonShell('../test/python/echo_binary.py');
 
 // sends a message to the Python script via stdin
 pyshell.send('hello');
@@ -14,7 +15,6 @@ pyshell.end(function(err, code, signal) {
   if (err) throw err;
   console.log('The exit code was: ' + code);
   console.log('The exit signal was: ' + signal);
-  console.log('finished');
 });
 
 /*
