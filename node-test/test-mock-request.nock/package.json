@@ -1,0 +1,15 @@
+{
+  "name": "test-mock-request.nock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Charly Lee <charly.loggar@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nock": "^10.0.6"
+  }
+}
