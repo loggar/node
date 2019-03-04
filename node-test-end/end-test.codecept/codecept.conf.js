@@ -1,5 +1,5 @@
 exports.config = {
-  tests: './end-test.codecept/**/*.pageObject.test.js',
+  tests: './src-end-test.codecept/**/*.pageObject.test.js',
   output: './output',
   helpers: {
     Puppeteer: {
