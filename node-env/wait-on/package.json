@@ -1,0 +1,19 @@
+{
+  "name": "wait-on-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:system": "npm-run-all build -p -r serve test",
+    "build": "webpack",
+    "serve": "serve -p 8000",
+    "test": "wait-on http://localhost:8001 && npm run test:codecept",
+    "test:codecept": "codecept"
+  },
+  "keywords": [],
+  "author": "Charly Lee <charly.loggar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "wait-on": "^3.2.0"
+  }
+}
