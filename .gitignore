@@ -41,6 +41,7 @@ dist10/
 
 # test
 _test-output/
+output/
 
 # code coverage
 coverage/
