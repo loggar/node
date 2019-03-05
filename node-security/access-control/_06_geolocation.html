@@ -1,0 +1,17 @@
+<script>
+	var getLocation = function getLocation(cb) {
+		if (!navigator.geolocation) {
+			return cb(new Error('Geolocation is not supported by this browser.'));
+		}
+		navigator.geolocation.getCurrentPosition(function (position) {
+			cb(null, position);
+		});
+	};
+
+	getLocation(function (err, position) {
+		if (err) {
+			return console.log(err);
+		}
+		console.log(position);
+	});
+</script>
