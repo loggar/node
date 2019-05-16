@@ -1,0 +1,8 @@
+DELIMITER $$
+ 
+CREATE PROCEDURE `getAllTodo`()
+BEGIN
+    SELECT * FROM todo;
+END$$
+ 
+DELIMITER ;
