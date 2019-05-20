@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <script>
+      (function() {
+        // console.log(global);
+        // Uncaught ReferenceError: global is not defined
+
+        console.log(window); // Object [Window]
+        console.log(this); // Object [Window]
+        console.log(window === this); // true
+      })();
+    </script>
+  </body>
+</html>
