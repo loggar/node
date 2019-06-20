@@ -1,0 +1,7 @@
+{
+  "appId": "com.example.capacitor.ex1",
+  "appName": "capacitor-app-ex",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

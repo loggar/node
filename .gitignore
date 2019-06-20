@@ -39,6 +39,10 @@ out-tsc/
 dist8/
 dist10/
 
+# build cross-platform
+www/
+electron/
+
 # test
 _test-output/
 output/
