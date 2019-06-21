@@ -1,0 +1,16 @@
+{
+  "name": "orm.sequelize",
+  "version": "1.0.0",
+  "description": "Sequelize is a promise-based ORM for Node.js v4 and up. It supports the dialects PostgreSQL, MySQL, SQLite and MSSQL and features solid transaction support, relations, read replication and more.",
+  "main": "ex.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Charly Lee <charly.loggar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sequelize": "^5.8.10",
+    "sqlite3": "^4.0.9"
+  }
+}
