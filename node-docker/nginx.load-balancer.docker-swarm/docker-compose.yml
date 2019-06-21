@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  nodeapp:
+    image: loggar/balancer_swarm_demo_nodeapp
+    ports:
+      - 5000:5000
+    deploy:
+      replicas: 15
+      restart_policy:
+        max_attempts: 3
+        condition: on-failure
+      update_config:
+        parallelism: 3
+        delay: 10s
+    networks:
+      - balance
+
+  proxy:
+    image: loggar/balancer_swarm_demo_nginx
+    ports:
+      - 80:80
+    depends_on:
+      - nodeapp
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - balance
+
+networks:
+  balance:
+    driver: overlay
