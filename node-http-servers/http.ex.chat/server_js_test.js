@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
-var mime = require('mime');
+var mime = require('mime-types');
 
 var cache = {};
 var servicePort = 3000;

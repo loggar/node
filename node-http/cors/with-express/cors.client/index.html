@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      var testUrl1 = "http://localhost:3001";
+      var testUrl2 = "http://localhost:3002";
+
+      var myHeaders = new Headers();
+
+      var reqInit = {
+        method: "GET",
+        headers: myHeaders,
+        mode: "cors",
+        cache: "default"
+      };
+
+      fetch(testUrl1, reqInit)
+        .then(function(response) {
+          console.log(testUrl1, "response", response);
+          return response.text();
+        })
+        .then(function(text) {
+          console.log(testUrl1, "text", text);
+        })
+        .catch(function(error) {
+          console.log(testUrl1, "There has been a problem with your fetch operation: ", error.message);
+        });
+
+      fetch(testUrl2, reqInit)
+        .then(function(response) {
+          console.log(testUrl2, "response", response);
+          return response.text();
+        })
+        .then(function(text) {
+          console.log(testUrl2, "text", text);
+        })
+        .catch(function(error) {
+          console.log(testUrl2, "There has been a problem with your fetch operation: ", error.message);
+        });
+    </script>
+  </body>
+</html>
