@@ -2,33 +2,31 @@
 
 ## NODE_ENV
 
-bash
+linux
 
 ```
 export NODE_ENV=production
-```
 
-```
+export NODE_ENV=production && node app.js
+
 NODE_ENV=production node app.js
 ```
 
 windows cmd
 
 ```
-SET NODE_ENV=production
-```
+set NODE_ENV=production
 
-```
-SET NODE_ENV=production && node app.js
+npm run env NODE_ENV=production
+
+cross-env NODE_ENV=production my-command
 ```
 
 windows powershell
 
 ```
 $Env:NODE_ENV = 'production'
-```
 
-```
 $Env:NODE_ENV = 'production'; node app.js
 ```
 
