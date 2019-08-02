@@ -1,0 +1,11 @@
+###
+GET http://localhost:3000/products?page=1&pageSize=10
+
+###
+GET http://localhost:3000/products/0
+
+###
+GET http://localhost:3000/products/abc
+
+###
+GET http://localhost:3000/products/2
