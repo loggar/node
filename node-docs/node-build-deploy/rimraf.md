@@ -1,3 +1,11 @@
+## rimraf
+
+The UNIX command `rm -rf` for node.
+
+```
+npm install rimraf
+```
+
 ```
 {
   "name": "rimraf-ex",

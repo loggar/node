@@ -10,7 +10,7 @@
 }
 ```
 
-result: 
+result:
 
 ```
 npm run B && npm run C
