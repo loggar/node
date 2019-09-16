@@ -1,8 +1,0 @@
-{
-	"name": "practice-node-commander",
-	"version": "0.1",
-	"main": "com_01.js",
-	"dependencies": {
-		"commander": "^2.15.0"
-	}
-}
