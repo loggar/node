@@ -1,5 +1,11 @@
 # npm commands
 
+## Faster npm install
+
+```
+npm set progress=false
+```
+
 ## npm list
 
 Get list of globally installed packages
