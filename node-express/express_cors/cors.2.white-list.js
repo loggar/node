@@ -3,7 +3,7 @@ var cors = require("cors");
 
 var app = express();
 
-var whitelist = ["http://localhost:3000", "http://staff.localhost:8080", "https://staff.koi.edu.au/"];
+var whitelist = ["http://localhost:3000", "http://localhost:8080"];
 var corsOptionsDelegate = function(req, callback) {
   var corsOptions;
   if (whitelist.indexOf(req.header("Origin")) !== -1) {
