@@ -1,5 +1,5 @@
 {
-	"name": "modules-node-postrge",
+  "name": "modules-node-postgre",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",

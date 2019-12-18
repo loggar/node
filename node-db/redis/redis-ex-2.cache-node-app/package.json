@@ -1,0 +1,17 @@
+{
+  "name": "redis-ex-2.cache-node-app",
+  "version": "1.0.0",
+  "description": "```\r npm i express redis axios\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "redis": "^2.8.0"
+  }
+}

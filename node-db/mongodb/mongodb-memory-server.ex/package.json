@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-memory-server.ex",
+  "version": "1.0.0",
+  "description": "```\r npm install --save mongoose\r npm install --save-dev jest mongodb-memory-server\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand ./test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.8.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "mongodb-memory-server": "^6.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
