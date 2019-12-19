@@ -15,3 +15,5 @@ if (
 console.log("fetch", typeof fetch);
 console.log("org_fetch", typeof org_fetch);
 console.log("fetch === org_fetch", fetch === org_fetch);
+
+module.exports = fetch;
