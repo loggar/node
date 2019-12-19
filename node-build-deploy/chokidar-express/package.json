@@ -2,7 +2,7 @@
 	"name": "express-chokidar",
 	"main": "server.js",
 	"dependencies": {
-		"express": "~4.0.0",
+		"express": "~4.17.1",
 		"chokidar": "~2.0.2"
 	}
 }
