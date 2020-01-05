@@ -1,6 +1,6 @@
 # node-pty
 
-This allows you to fork processes with pseudoterminal file descriptors. It returns a terminal object which allows reads and writes.
+This allows you to fork processes with pseudo terminal file descriptors. It returns a terminal object which allows reads and writes.
 
 * Writing a terminal emulator (eg. via xterm.js).
 * Getting certain programs to think you're a terminal, such as when you need a program to send you control sequences.
