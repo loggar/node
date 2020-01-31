@@ -1,0 +1,17 @@
+{
+  "name": "scrape-github-trending",
+  "scripts": {
+    "test": "standard"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^9.6.0",
+    "p-map": "^2.1.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
