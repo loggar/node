@@ -1,5 +1,5 @@
 {
-  "name": "with-express",
+  "name": "cors-ex",
   "version": "1.0.0",
   "description": "",
   "main": "cors.express.simple.1.js",
