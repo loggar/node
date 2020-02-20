@@ -1,0 +1,15 @@
+{
+  "name": "worker_threads.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.1.client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
