@@ -54,4 +54,16 @@ npm update -g <package>
 npm update --save-D <package>
 
 npm update --save <package>
-``
+```
+
+List all the installed packages in this directory
+
+```
+npm ls --depth 0
+```
+
+List available scripts of this project
+
+```
+npm run
+```
