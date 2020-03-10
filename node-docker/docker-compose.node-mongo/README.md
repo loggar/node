@@ -1,5 +1,15 @@
 # Containerizing a Node.js Application for Development With Docker Compose
 
+## `.env` example
+
+```
+MONGO_USERNAME=user
+MONGO_PASSWORD=user_password
+MONGO_PORT=27017
+MONGO_DB=sharkinfo
+
+```
+
 ## Testing the Application
 
 First, build the container images and create the services by running `docker-compose up` with the `-d` flag, which will then run the nodejs and db containers in the background:
