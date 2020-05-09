@@ -1,33 +1,42 @@
 # lite-server
 
 ## install
+
 ```
 $ npm install lite-server --save-dev
 $ yarn add lite-server --dev # or yarn
 ```
 
 ## run
-```json(package.json)
-"scripts": {    
+
+`package.json`
+
+```json
+  "scripts": {
     "dev": "lite-server"
   },
 ```
+
 ```
 $ npm run dev
 ```
- 
+
 ## cli
+
 - global
+
 ```
 $ lite-server
 ```
 
 - custom configuration file
+
 ```
-$ lite-server -c configs/bs-config.js
+$ lite-server -c ./bs-config.js
 ```
 
-* bs-config.json
+- bs-config.json
+
 ```
 {
   "port": 4340,
