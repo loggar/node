@@ -51,6 +51,9 @@ output/
 coverage/
 .nyc_output/
 
+# process performance monitoring outputs
+.clinic/
+
 # temporary dirs
 tmp/
 _tmp/

@@ -1,0 +1,17 @@
+{
+  "name": "monitor.clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "clinic-doctor": "clinic doctor --autocannon [ / --method POST ] -- node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clinic": "^6.0.2"
+  }
+}
