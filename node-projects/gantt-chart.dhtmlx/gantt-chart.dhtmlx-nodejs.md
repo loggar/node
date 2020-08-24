@@ -60,31 +60,33 @@ app.listen(port, function () {
 
 ```html
 <!DOCTYPE html>
-<head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
-  <script src="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.js"></script>
-  <link
-    href="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.css"
-    rel="stylesheet"
-  />
+    <script src="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.js"></script>
+    <link
+      href="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.css"
+      rel="stylesheet"
+    />
 
-  <style type="text/css">
-    html,
-    body {
-      height: 100%;
-      padding: 0px;
-      margin: 0px;
-      overflow: hidden;
-    }
-  </style>
-</head>
-<body>
-  <div id="gantt_here" style="width:100%; height:100%;"></div>
-  <script type="text/javascript">
-    gantt.init("gantt_here");
-  </script>
-</body>
+    <style type="text/css">
+      html,
+      body {
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gantt_here" style="width:100%; height:100%;"></div>
+    <script type="text/javascript">
+      gantt.init("gantt_here");
+    </script>
+  </body>
+</html>
 ```
 
 ## Step 3. Preparing a database
@@ -128,10 +130,7 @@ INSERT INTO `gantt_tasks` VALUES ('8', 'Task #2.2', '2017-04-06 00:00:00',
 ## Step 4. Loading data
 
 ```
-npm install bluebird --save
-npm install promise-mysql --save
-
-npm install date-format-lite --save
+npm install bluebird promise-mysql date-format-lite --save
 ```
 
 `server.js`
@@ -141,12 +140,17 @@ var Promise = require("bluebird");
 require("date-format-lite");
 
 var mysql = require("promise-mysql");
-var db = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "gantt",
-});
+var db = mysql
+  .createPool({
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "gantt",
+  })
+  .then((p) => {
+    console.log(p);
+    return p;
+  });
 
 app.get("/data", function (req, res) {
   Promise.all([
