@@ -1,0 +1,66 @@
+{
+  "_from": "websocket-over-nodejs",
+  "_id": "websocket-over-nodejs@0.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-/iY68tMBxx2izVDfgAjLZRsA4uIKwzVKhCdEqufzsS/0qPTbges7gucWoaWOpt9fG3CsZx0hIJMR7HusVUypBw==",
+  "_location": "/websocket-over-nodejs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "websocket-over-nodejs",
+    "name": "websocket-over-nodejs",
+    "escapedName": "websocket-over-nodejs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/websocket-over-nodejs/-/websocket-over-nodejs-0.0.8.tgz",
+  "_shasum": "4e2ab3e25e5c7f495b98c6a5b263ed39ff6ea96a",
+  "_spec": "websocket-over-nodejs",
+  "_where": "C:\\Users\\webnl\\Documents\\_workspace_js\\loggar-node\\node-http\\web-socket",
+  "analyze": false,
+  "author": {
+    "name": "Muaz Khan",
+    "email": "muazkh@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/muaz-khan/WebRTC-Experiment/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Muaz Khan",
+      "email": "muazkh@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "websocket": "1.0.x"
+  },
+  "deprecated": false,
+  "description": "WebSocket-over-Nodejs",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "homepage": "https://github.com/muaz-khan/WebRTC-Experiment/tree/master/websocket-over-nodejs",
+  "keywords": [
+    "webrtc-signaling",
+    "websocket-over-nodejs"
+  ],
+  "license": "MIT",
+  "main": "server.js",
+  "name": "websocket-over-nodejs",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muaz-khan/WebRTC-Experiment.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.8"
+}
