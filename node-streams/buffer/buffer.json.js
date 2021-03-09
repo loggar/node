@@ -1,0 +1,4 @@
+const buf = Buffer.from([0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8]);
+
+console.log(buf.toJSON());
+// This will print {"type":"Buffer", data:[1,2,3,4,5,6,7,8]}
