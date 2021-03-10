@@ -1,5 +1,5 @@
 var assert = require('assert');
-var Todo = require('./todo');
+var Todo = require('./module.todo');
 var todo = new Todo();
 var testsCompleted = 0;
 
