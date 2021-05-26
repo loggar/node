@@ -2,7 +2,7 @@ const initSqlJs = require("./sql-wasm.js");
 
 initSqlJs().then(function (SQL) {
   const db = new SQL.Database();
-  // RUNNING SQL QUERIES 👇
+  // RUNNING SQL QUERIES
   db.run("CREATE TABLE users (id, name, phone, address);");
   db.run(
     `INSERT INTO users (id, name, phone, address)

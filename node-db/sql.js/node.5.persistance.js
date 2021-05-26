@@ -5,7 +5,7 @@ initSqlJs().then(function (SQL) {
   // Create a new database with our existing sample.sqlite file
   const db = new SQL.Database(filebuffer);
 
-  // Export database 👇
+  // Export database
   const data = db.export();
   // var buffer = new Buffer(data);
   let buffer = Buffer.from(data, "utf8");
