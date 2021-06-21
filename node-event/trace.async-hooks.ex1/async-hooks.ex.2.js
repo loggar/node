@@ -15,7 +15,7 @@ async_hooks
         1,
         `Destroy resource: execution: ${eid} asyncId: ${asyncId}\n`
       );
-    }
+    },
   })
   .enable();
 
