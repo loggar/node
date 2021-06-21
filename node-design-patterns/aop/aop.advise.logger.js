@@ -1,6 +1,6 @@
 const AOP = require("./aop.simple.logger");
 
-class MyBussinessLogic {
+class MyBusinessLogic {
   add(a, b) {
     console.log("Calling add");
     return a + b;
@@ -17,7 +17,7 @@ class MyBussinessLogic {
   }
 }
 
-const o = new MyBussinessLogic();
+const o = new MyBusinessLogic();
 
 function loggingAspect(...args) {
   console.log("== Calling the logger function ==");
