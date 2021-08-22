@@ -98,12 +98,12 @@ yarn add --dev babel-jest 'babel-core@^7.0.0-0' @babel/core regenerator-runtime
 ```json
 // .babelrc
 {
-	"presets": [["env", {"modules": false}], "react"],
-	"env": {
-		"test": {
-			"presets": [["env"], "react"]
-		}
-	}
+  "presets": [["env", { "modules": false }], "react"],
+  "env": {
+    "test": {
+      "presets": [["env"], "react"]
+    }
+  }
 }
 ```
 
@@ -112,12 +112,12 @@ yarn add --dev babel-jest 'babel-core@^7.0.0-0' @babel/core regenerator-runtime
 ```json
 // package.json
 {
-	"jest": {
-		"transform": {}
-	}
+  "jest": {
+    "transform": {}
+  }
 }
 ```
 
 ## refs
 
-* https://jestjs.io/docs/en/getting-started
+- https://jestjs.io/docs/en/getting-started
