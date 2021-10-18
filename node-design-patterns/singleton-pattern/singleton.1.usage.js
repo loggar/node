@@ -1,9 +1,9 @@
-const Singleton = require("./singleton.1");
+const SingletonInstance = require("./singleton.1");
 
-const obj = Singleton.getInstance();
-const obj2 = Singleton.getInstance();
+const obj1 = SingletonInstance;
+const obj2 = SingletonInstance;
 
-obj.printValue();
+obj1.printValue();
 obj2.printValue();
 
-console.log("Equals:: ", obj === obj2);
+console.log("Equals:: ", obj1 === obj2);

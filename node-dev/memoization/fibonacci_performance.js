@@ -29,7 +29,7 @@ var memoizeFibonacci = function() {
 //un-optimized
 // time before function is executed
 const startTime = performance.now();
-fibonacci(40);
+fibonacci(41);
 // time after function has completed computation
 const endTime = performance.now();
 
@@ -37,7 +37,7 @@ console.log("Un-optimized time", endTime - startTime);
 
 // memoized
 const startTime2 = performance.now();
-memoizeFibonacci(40);
+memoizeFibonacci(41);
 // time after function has completed computation
 const endTime2 = performance.now();
 

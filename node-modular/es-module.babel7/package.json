@@ -1,0 +1,21 @@
+{
+  "name": "js-node-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "babel-core": "^6.26.3",
+    "jest": "^27.2.4"
+  },
+  "scripts": {
+    "test": "jest ./test"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

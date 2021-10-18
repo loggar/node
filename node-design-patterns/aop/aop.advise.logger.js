@@ -1,4 +1,4 @@
-const AOP = require("./aop.simple.logger");
+const AOP = require("./aop.aspect.logger");
 
 class MyBusinessLogic {
   add(a, b) {
