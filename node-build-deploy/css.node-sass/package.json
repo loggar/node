@@ -7,6 +7,6 @@
 		"scss": "node-sass --watch scss/ -o css/"
 	},
 	"devDependencies": {
-		"node-sass": "4.9.0"
+		"node-sass": "4.14.1"
 	}
 }
