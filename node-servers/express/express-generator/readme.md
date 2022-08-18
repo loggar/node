@@ -11,5 +11,3 @@ $ cd generated-express-app
 
 $ npm install
 ```
-
-
