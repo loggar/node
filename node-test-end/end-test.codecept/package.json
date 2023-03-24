@@ -10,7 +10,7 @@
   "author": "Charly Lee <charly.loggar@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "codeceptjs": "^2.0.6"
+    "codeceptjs": "^2.6.11"
   },
   "devDependencies": {
     "puppeteer": "^1.6.0"
