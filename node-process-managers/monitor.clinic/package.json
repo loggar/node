@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "clinic": "^6.0.2"
+    "clinic": "^12.1.0"
   }
 }

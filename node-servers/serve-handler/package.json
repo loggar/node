@@ -6,7 +6,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"serve": "^8.2.0"
+		"serve": "^14.2.0"
 	},
 	"devDependencies": {}
 }
