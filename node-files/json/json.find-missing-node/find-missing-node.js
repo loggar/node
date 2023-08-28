@@ -1,6 +1,17 @@
 import fs from "fs/promises";
 import path from "path";
 
+/**
+ * @arg fileName In a json file
+ * @arg parentPath Under the parent node structure
+ * @arg idPath collect ID field values
+ * @arg targetPath if the target child node is missing
+ */
+const fileName = "data.json";
+const parentPath = "a[].b[].c[]";
+const idPath = "id";
+const targetPath = "dates.modified";
+
 function resolveNestedField(obj, nestedField) {
   const fields = nestedField.split(".");
   let value = obj;
@@ -68,11 +79,6 @@ function collectIds(
 
   return results;
 }
-
-const fileName = "data.json";
-const parentPath = "a[].b[].c[]";
-const idPath = "id";
-const targetPath = "dates.modified";
 
 async function main() {
   const filePath = path.resolve(process.cwd(), fileName);
