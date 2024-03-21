@@ -21,3 +21,9 @@ const timestamps = [
 // node ./node-lib-src/datetime/ex.timestamp-convertor.js
 const dates = dateConvertor.timestampsToDates(timestamps, timeZone);
 console.log(dates);
+
+for (const date of dates) {
+  console.log(date.toLocaleString("en-US", { timeZone }));
+}
+
+module.exports = { nanosecondsToMilliseconds };
